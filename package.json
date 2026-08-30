@@ -1,0 +1,11 @@
+{
+  "name": "istqb-ctfl-v4-practica",
+  "version": "1.0.0",
+  "description": "Exámenes de práctica ISTQB CTFL v4.0 con web interactiva y explicaciones.",
+  "private": true,
+  "scripts": {
+    "test": "node scripts/validar-examenes.js",
+    "generar-txt": "node scripts/generar-txt.js"
+  },
+  "license": "MIT"
+}

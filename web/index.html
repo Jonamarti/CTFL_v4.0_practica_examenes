@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Práctica ISTQB CTFL v4.0</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <header class="cabecera">
+    <div class="cabecera-inner">
+      <h1>Práctica ISTQB CTFL v4.0</h1>
+      <p>Exámenes de práctica con explicación por respuesta</p>
+    </div>
+  </header>
+
+  <main id="app">
+
+    <!-- LISTADO -->
+    <section id="vista-listado" class="vista activa">
+      <h2 class="titulo-seccion">Elige un examen</h2>
+      <div id="lista-examenes" class="lista-examenes"></div>
+    </section>
+
+    <!-- EXAMEN -->
+    <section id="vista-examen" class="vista">
+      <div id="barra-examen" class="barra-examen"></div>
+      <div id="layout-examen" class="layout-examen">
+        <nav id="navegador-preguntas" class="navegador"></nav>
+        <div id="contenedor-preguntas" class="contenedor-preguntas"></div>
+      </div>
+    </section>
+
+    <!-- RESULTADOS -->
+    <section id="vista-resultados" class="vista">
+      <div id="contenedor-resultados"></div>
+    </section>
+
+  </main>
+
+  <div id="modal" class="modal oculto" role="dialog" aria-modal="true">
+    <div class="modal-caja">
+      <h2 id="modal-titulo"></h2>
+      <div id="modal-mensaje"></div>
+      <div id="modal-acciones" class="modal-acciones"></div>
+    </div>
+  </div>
+
+  <script src="js/examenes/examen-1.js"></script>
+  <script src="js/examenes/examen-2.js"></script>
+  <script src="js/examenes/examen-3.js"></script>
+  <script src="js/examenes/examen-4.js"></script>
+  <script src="js/examenes/examen-5.js"></script>
+  <script src="js/examenes/examen-6.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
