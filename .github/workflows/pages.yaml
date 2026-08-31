@@ -24,10 +24,15 @@ jobs:
       - name: Configurar Pages
         uses: actions/configure-pages@v5
 
-      - name: Subir artefacto (carpeta web)
+      - name: Preparar la raíz del sitio (contenido de web)
+        run: |
+          mkdir -p _site
+          cp -r web/. _site/
+
+      - name: Subir artefacto (raíz del sitio)
         uses: actions/upload-pages-artifact@v3
         with:
-          path: web
+          path: _site
 
   deploy:
     needs: build

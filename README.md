@@ -32,11 +32,6 @@ dependencias.
 El repositorio incluye un workflow de GitHub Actions que publica la web
 automáticamente en GitHub Pages.
 
-1. En *Settings → Pages → Build and deployment*, selecciona **Source: GitHub
-   Actions**.
-2. Tras el primer push a `main`, la web queda publicada en
-   `https://<usuario>.github.io/<repositorio>/`.
-
 ## Tests de validación de datos
 
 El workflow de CI (`.github/workflows/validacion.yaml`) valida la integridad de
