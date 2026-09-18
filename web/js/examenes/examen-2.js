@@ -1,4 +1,4 @@
-/* examen-2.js — Datos del EXAMEN DE PRÁCTICA 2 (ISTQB CTFL v4.0) */
+/* examen-2.js — Datos del EXAMEN DE PRÁCTICA 2 (CTFL v4.0) */
 (function (g) {
   'use strict';
   g.EXAMENES = g.EXAMENES || [];
@@ -14,7 +14,7 @@
           { letra: 'a', texto: 'Prevenir defectos', correcta: false,
             explicacion: 'Sí es un objetivo (no es la respuesta). Prevenir defectos, mediante el análisis de la base de prueba y las actividades tempranas, es uno de los objetivos de la prueba.' },
           { letra: 'b', texto: 'Generar confianza en el nivel de calidad', correcta: false,
-            explicacion: 'Sí es un objetivo (no es la respuesta). La prueba aporta información para generar confianza en el nivel de calidad del objeto de prueba.' },
+            explicacion: 'Sí es un objetivo (no es la respuesta). La prueba aporta datos objetivos que inspiran confianza en la calidad del software.' },
           { letra: 'c', texto: 'Garantizar que el software no tenga defectos', correcta: true,
             explicacion: 'Correcto. Garantizar la ausencia total de defectos NO es un objetivo (de hecho es imposible): la prueba muestra la presencia, no la ausencia de defectos.' },
           { letra: 'd', texto: 'Evaluar productos de trabajo', correcta: false,
@@ -107,7 +107,7 @@
       },
       {
         numero: 8, capitulo: 2, nivel: 'K2',
-        enunciado: '¿Qué nivel de prueba se centra en validar que el sistema satisface las necesidades de negocio del usuario?',
+        enunciado: '¿Qué nivel de prueba comprueba que el sistema cumple lo que la organización y el usuario esperan?',
         opciones: [
           { letra: 'a', texto: 'Prueba de sistema', correcta: false,
             explicacion: 'No. La prueba de sistema verifica el comportamiento global del sistema frente a sus especificaciones técnicas/funcionales.' },
@@ -139,7 +139,7 @@
         opciones: [
           { letra: 'a', texto: 'Retroalimentación rápida sobre calidad del código', correcta: false,
             explicacion: 'No es un riesgo, es una ventaja clave de DevOps.' },
-          { letra: 'b', texto: 'Las herramientas CI/CD deben ser introducidas y mantenidas', correcta: true,
+          { letra: 'b', texto: 'Requiere instalar y mantener a flote la infraestructura de CI/CD', correcta: true,
             explicacion: 'Correcto. DevOps requiere instalar, configurar y mantener la infraestructura de CI/CD y la automatización, lo que supone un esfuerzo y riesgo reales.' },
           { letra: 'c', texto: 'Automatización de pruebas repetitivas', correcta: false,
             explicacion: 'No es un riesgo, es una ventaja de DevOps.' },

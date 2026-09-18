@@ -59,7 +59,7 @@ function generar(examen) {
   const separador = '='.repeat(79);
 
   out += separador + '\n';
-  out += titulo + ' - ISTQB CTFL v4.0\n';
+  out += titulo + ' - CTFL v4.0\n';
   out += separador + '\n';
   out += 'Instrucciones: 40 preguntas, 1 punto cada una.\n';
   out += 'Duración recomendada: ' + (examen.duracionRecomendada || 60) + ' minutos.\n';

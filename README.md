@@ -1,4 +1,4 @@
-# Práctica ISTQB CTFL v4.0
+# Práctica CTFL v4.0
 
 Banco de exámenes de práctica para preparar la certificación **ISTQB Certified
 Tester Foundation Level (CTFL) v4.0**, con una **web interactiva** donde puedes
@@ -7,7 +7,7 @@ opción es correcta o incorrecta.
 
 ## Funcionalidades de la web
 
-- **6 exámenes de práctica** de 40 preguntas cada uno, con la distribución
+- **10 exámenes de práctica** de 40 preguntas cada uno, con la distribución
   oficial por capítulos y niveles K (K1/K2/K3).
 - Soporte de preguntas de **una opción** (radio) y **"Seleccionar DOS opciones"**
   (casillas que validan exactamente 2 respuestas).

@@ -1,4 +1,4 @@
-/* examen-9.js — Datos del EXAMEN DE PRÁCTICA 9 (ISTQB CTFL v4.0) */
+/* examen-9.js — Datos del EXAMEN DE PRÁCTICA 9 (CTFL v4.0) */
 (function (g) {
   'use strict';
   g.EXAMENES = g.EXAMENES || [];
@@ -107,7 +107,7 @@
       },
       {
         numero: 8, capitulo: 2, nivel: 'K2',
-        enunciado: '¿Qué nivel de prueba valida que el sistema satisface las necesidades de negocio y está listo para su uso por parte del cliente?',
+        enunciado: '¿Qué nivel de prueba confirma que el sistema responde a lo que el negocio espera y está listo para usarse en producción?',
         opciones: [
           { letra: 'a', texto: 'Prueba de integración de sistemas', correcta: false,
             explicacion: 'No. La integración de sistemas verifica interfaces entre sistemas, no las necesidades del cliente.' },
@@ -237,7 +237,7 @@
         opciones: [
           { letra: 'a', texto: 'Revisar el documento completo de una sola vez', correcta: false,
             explicacion: 'No. Revisar todo de una vez es ineficaz; conviene dividir en fragmentos.' },
-          { letra: 'b', texto: 'Proporcionar tiempo suficiente a los participantes para prepararse', correcta: true,
+          { letra: 'b', texto: 'Dar a los participantes margen para repasar el material con antelación', correcta: true,
             explicacion: 'Correcto. Dar tiempo de preparación, objetivos claros, fragmentos pequeños y formación son factores de éxito.' },
           { letra: 'c', texto: 'Culpar a los participantes por los defectos que no encontraron', correcta: false,
             explicacion: 'No. La revisión debe centrarse en el producto, no en juzgar personas.' },
@@ -483,7 +483,7 @@
           { letra: 'a', texto: 'Que todos los defectos estén corregidos', correcta: false,
             explicacion: 'No. Eso es un criterio de salida, no de entrada.' },
           { letra: 'b', texto: 'Que la base de prueba esté disponible y el entorno esté listo', correcta: true,
-            explicacion: 'Correcto. Los criterios de entrada típicos incluyen: disponibilidad de la base de prueba, del entorno, de los datos y de las pruebas preparadas.' },
+            explicacion: 'Correcto. Para comenzar suele exigirse que la base de prueba, el entorno, los datos y las pruebas ya estén listos y disponibles.' },
           { letra: 'c', texto: 'Que se haya entregado el informe de compleción', correcta: false,
             explicacion: 'No. Eso ocurre al finalizar el nivel, no para comenzarlo.' },
           { letra: 'd', texto: 'Que el 100% de las pruebas hayan pasado', correcta: false,

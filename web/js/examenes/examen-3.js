@@ -1,4 +1,4 @@
-/* examen-3.js — Datos del EXAMEN DE PRÁCTICA 3 (ISTQB CTFL v4.0) */
+/* examen-3.js — Datos del EXAMEN DE PRÁCTICA 3 (CTFL v4.0) */
 (function (g) {
   'use strict';
   g.EXAMENES = g.EXAMENES || [];
@@ -100,7 +100,7 @@
           { letra: 'b', texto: 'Manual de usuario', correcta: false,
             explicacion: 'No. El manual de usuario es documentación del producto, no un producto de prueba.' },
           { letra: 'c', texto: 'Caso de prueba', correcta: true,
-            explicacion: 'Correcto. Son productos de prueba: el plan de prueba, las condiciones de prueba, los casos de prueba, los procedimientos y los informes, entre otros.' },
+            explicacion: 'Correcto. Son productos de prueba: el plan, las condiciones, los casos, los procedimientos y los informes, entre otros.' },
           { letra: 'd', texto: 'Especificación de requisitos', correcta: false,
             explicacion: 'No. La especificación de requisitos es la base de prueba (entrada), no un producto de prueba.' }
         ]
@@ -139,7 +139,7 @@
         opciones: [
           { letra: 'a', texto: 'Realizar pruebas solo al final del desarrollo', correcta: false,
             explicacion: 'No. Probar solo al final es lo contrario del shift-left.' },
-          { letra: 'b', texto: 'Revisar la especificación desde la perspectiva de la prueba antes de codificar', correcta: true,
+          { letra: 'b', texto: 'Analizar los documentos de requisitos con mirada de probador antes de programar', correcta: true,
             explicacion: 'Correcto. El desplazamiento a la izquierda adelanta las actividades de prueba: revisar requisitos y diseños ANTES de programar, usar análisis estático y CI temprano.' },
           { letra: 'c', texto: 'Esperar a tener el sistema completo para probar', correcta: false,
             explicacion: 'No. Esperar al sistema completo es el enfoque "a la derecha", tardío y caro.' },
@@ -163,7 +163,7 @@
       },
       {
         numero: 12, capitulo: 2, nivel: 'K2',
-        enunciado: '¿Qué tipos de prueba pueden aplicarse a todos los niveles de prueba?',
+        enunciado: '¿Qué tipos de prueba se practican en cualquiera de los niveles de prueba?',
         opciones: [
           { letra: 'a', texto: 'Solo prueba funcional', correcta: false,
             explicacion: 'No. La funcional es un tipo, pero no el único aplicable a todos los niveles.' },
@@ -219,12 +219,12 @@
       },
       {
         numero: 16, capitulo: 3, nivel: 'K1',
-        enunciado: '¿Cuál de los siguientes es un beneficio de la retroalimentación temprana y frecuente de los implicados?',
+        enunciado: '¿Qué ventaja tiene que los implicados aporten su opinión pronto y de forma reiterada?',
         opciones: [
           { letra: 'a', texto: 'Aumento del coste del proyecto', correcta: false,
             explicacion: 'No. Justamente la retroalimentación temprana reduce costes al evitar retrabajo.' },
           { letra: 'b', texto: 'Prevención de malentendidos sobre los requisitos', correcta: true,
-            explicacion: 'Correcto. La retroalimentación temprana y frecuente previene malentendidos sobre los requisitos y evita cambios tardíos y costosos.' },
+            explicacion: 'Correcto. Recibir pronto y con asiduidad el parecer de los implicados evita malentendidos sobre los requisitos y cambios tardíos y caros.' },
           { letra: 'c', texto: 'Mayor necesidad de cambios tardíos', correcta: false,
             explicacion: 'No. Es lo contrario: alinear pronto reduce los cambios tardíos.' },
           { letra: 'd', texto: 'Reducción de la comunicación entre el equipo', correcta: false,
@@ -377,7 +377,7 @@
       },
       {
         numero: 27, capitulo: 4, nivel: 'K2',
-        enunciado: '¿Cuál de las siguientes opciones describe MEJOR el enfoque colaborativo para escribir historias de usuario?',
+        enunciado: 'En la redacción de historias de usuario, ¿cuál es la forma de trabajo colaborativo correcta?',
         opciones: [
           { letra: 'a', texto: 'Las escriben los desarrolladores solos', correcta: false,
             explicacion: 'No. Sin la perspectiva del negocio y de prueba, la historia pierde valor.' },

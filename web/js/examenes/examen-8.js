@@ -1,4 +1,4 @@
-/* examen-8.js — Datos del EXAMEN DE PRÁCTICA 8 (ISTQB CTFL v4.0) */
+/* examen-8.js — Datos del EXAMEN DE PRÁCTICA 8 (CTFL v4.0) */
 (function (g) {
   'use strict';
   g.EXAMENES = g.EXAMENES || [];
@@ -93,7 +93,7 @@
       },
       {
         numero: 7, capitulo: 1, nivel: 'K2',
-        enunciado: '¿Qué relación existe entre la prueba y el aseguramiento de la calidad (QA)?',
+        enunciado: '¿Cómo se relacionan la prueba y QA (aseguramiento de la calidad)?',
         opciones: [
           { letra: 'a', texto: 'La prueba sustituye completamente a QA', correcta: false,
             explicacion: 'No. Son complementarias: QA mejora procesos, la prueba evalúa el producto.' },
@@ -392,7 +392,7 @@
       },
       {
         numero: 28, capitulo: 4, nivel: 'K2',
-        enunciado: 'En el desarrollo guiado por pruebas de aceptación (ATDD), ¿qué se define ANTES de escribir el código?',
+        enunciado: 'En ATDD, ¿qué se define ANTES de escribir el código?',
         opciones: [
           { letra: 'a', texto: 'La estrategia de despliegue en producción', correcta: false,
             explicacion: 'No. El despliegue es posterior a la implementación.' },

@@ -1,4 +1,4 @@
-/* examen-4.js — Datos del EXAMEN DE PRÁCTICA 4 (ISTQB CTFL v4.0) */
+/* examen-4.js — Datos del EXAMEN DE PRÁCTICA 4 (CTFL v4.0) */
 (function (g) {
   'use strict';
   g.EXAMENES = g.EXAMENES || [];
@@ -65,7 +65,7 @@
       },
       {
         numero: 5, capitulo: 1, nivel: 'K2',
-        enunciado: '¿Para qué sirve la trazabilidad entre la base de prueba y los productos de prueba?',
+        enunciado: '¿Qué utilidad tiene la trazabilidad que conecta la base de prueba con los productos de prueba?',
         opciones: [
           { letra: 'a', texto: 'Para sustituir la documentación de diseño', correcta: false,
             explicacion: 'No. La trazabilidad es un vínculo entre artefactos, no un sustituto de la documentación.' },
@@ -157,7 +157,7 @@
             explicacion: 'No. Retrasar la revisión hasta tener todo el código es un enfoque tardío.' },
           { letra: 'c', texto: 'Detectar la mayoría de defectos en las pruebas tardías', correcta: false,
             explicacion: 'No. El objetivo es detectar defectos TEMPRANO, no tarde.' },
-          { letra: 'd', texto: 'Revisar los requisitos desde el punto de vista de la prueba antes de codificar', correcta: true,
+          { letra: 'd', texto: 'Examinar los requisitos con una mirada de probador antes de programar', correcta: true,
             explicacion: 'Correcto. El shift-left adelanta actividades: revisar requisitos y diseño con visión de prueba, usar análisis estático e integrar temprano, para abaratar la corrección.' },
         ]
       },
@@ -261,7 +261,7 @@
       },
       {
         numero: 19, capitulo: 4, nivel: 'K2',
-        enunciado: '¿A qué categoría de técnicas pertenecen la partición de equivalencia y el análisis del valor frontera?',
+        enunciado: '¿A qué categoría de técnicas pertenecen la partición de equivalencia (PE) y el análisis del valor frontera (AVF)?',
         opciones: [
           { letra: 'a', texto: 'Caja blanca', correcta: false,
             explicacion: 'No. La caja blanca usa la estructura interna del código.' },
@@ -484,7 +484,7 @@
           { letra: 'b', texto: 'Caja blanca', correcta: false,
             explicacion: 'No. La caja blanca se apoya en la estructura del código.' },
           { letra: 'c', texto: 'Prueba basada en lista de comprobación (checklist)', correcta: true,
-            explicacion: 'Correcto. La prueba basada en lista de comprobación (checklist-based testing) guía al tester por una lista de aspectos, puestos o criterios predefinidos.' },
+            explicacion: 'Correcto. La técnica basada en una lista de comprobación (conocida también como checklist) guía al probador por una serie de puntos o criterios ya fijados.' },
           { letra: 'd', texto: 'Prueba exploratoria', correcta: false,
             explicacion: 'No. La exploratoria es libre y guiada por un charter, no por una lista fija.' },
         ]

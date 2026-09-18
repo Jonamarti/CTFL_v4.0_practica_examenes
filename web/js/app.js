@@ -20,7 +20,7 @@
 
   const APROBADO = 0.65;
 
-  const claveGuardado = (id) => 'istqb_respuestas_' + id;
+  const claveGuardado = (id) => 'ctfl_respuestas_' + id;
 
   let estado = null;      // { exam, respuestas{}, modo, restante, epoch }
   let temporizadorId = null;

@@ -1,7 +1,7 @@
 {
-  "name": "istqb-ctfl-v4-practica",
+  "name": "practica-ctfl-v4.0",
   "version": "1.0.0",
-  "description": "Exámenes de práctica ISTQB CTFL v4.0 con web interactiva y explicaciones.",
+  "description": "Preparación para el examen ISTQB® Certified Tester Foundation Level (CTFL) v4.0 con web interactiva de práctica y explicaciones.",
   "private": true,
   "scripts": {
     "test": "node scripts/validar-examenes.js",

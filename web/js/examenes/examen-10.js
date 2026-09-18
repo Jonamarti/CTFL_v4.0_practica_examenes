@@ -1,4 +1,4 @@
-/* examen-10.js — Datos del EXAMEN DE PRÁCTICA 10 (ISTQB CTFL v4.0) */
+/* examen-10.js — Datos del EXAMEN DE PRÁCTICA 10 (CTFL v4.0) */
 (function (g) {
   'use strict';
   g.EXAMENES = g.EXAMENES || [];

@@ -1,4 +1,4 @@
-/* examen-1.js — Datos del EXAMEN DE PRÁCTICA 1 (ISTQB CTFL v4.0) */
+/* examen-1.js — Datos del EXAMEN DE PRÁCTICA 1 (CTFL v4.0) */
 (function (g) {
   'use strict';
   g.EXAMENES = g.EXAMENES || [];
@@ -13,8 +13,8 @@
         opciones: [
           { letra: 'a', texto: 'Encontrar tantos fallos como sea posible para demostrar que el software funciona', correcta: false,
             explicacion: 'No. La prueba no intenta demostrar que el software funciona; de hecho, las pruebas demuestran la presencia de defectos, no su ausencia. Además, el objetivo no es "maximizar fallos", sino proporcionar información sobre la calidad.' },
-          { letra: 'b', texto: 'Proporcionar información sobre el nivel de calidad del objeto de prueba', correcta: true,
-            explicacion: 'Correcto. Uno de los objetivos principales de la prueba es evaluar los productos de trabajo y proporcionar información sobre el nivel de calidad, que se usa para la toma de decisiones, generar confianza, prevenir y detectar defectos.' },
+          { letra: 'b', texto: 'Ofrecer datos objetivos sobre la calidad del software que se está probando', correcta: true,
+            explicacion: 'Correcto. Uno de los objetivos principales de la prueba es evaluar los productos de trabajo y aportar datos objetivos sobre su calidad, que se usan para decidir, generar confianza, prevenir y detectar defectos.' },
           { letra: 'c', texto: 'Garantizar que el software está libre de defectos antes de la entrega', correcta: false,
             explicacion: 'No. Garantizar la ausencia total de defectos contradice el principio de que la prueba muestra la presencia, no la ausencia de defectos. Las pruebas exhaustivas son imposibles.' },
           { letra: 'd', texto: 'Demostrar la ausencia total de defectos en el sistema', correcta: false,
@@ -93,7 +93,7 @@
       },
       {
         numero: 7, capitulo: 1, nivel: 'K2',
-        enunciado: '¿Qué proporciona la trazabilidad entre la base de prueba y los productos de prueba?',
+        enunciado: '¿Qué aporta la trazabilidad que vincula la base de prueba con los productos de prueba?',
         opciones: [
           { letra: 'a', texto: 'Garantiza que todos los defectos serán encontrados', correcta: false,
             explicacion: 'No. La trazabilidad no garantiza encontrar todos los defectos; eso contradice el principio de que las pruebas muestran la presencia, no la ausencia de defectos.' },
@@ -195,8 +195,8 @@
         opciones: [
           { letra: 'a', texto: 'La prueba estática solo se aplica al código fuente', correcta: false,
             explicacion: 'No. La prueba estática puede aplicarse a CUALQUIER producto de trabajo, incluidos requisitos, diseño y documentación, no solo al código.' },
-          { letra: 'b', texto: 'La prueba estática puede aplicarse a productos de trabajo no ejecutables', correcta: true,
-            explicacion: 'Correcto. La prueba estática no ejecuta el software y, por tanto, puede aplicarse a especificaciones, diseños y documentación (revisiones y análisis estático).' },
+          { letra: 'b', texto: 'La prueba estática también examina artefactos de trabajo que no se ejecutan', correcta: true,
+            explicacion: 'Correcto. La prueba estática no ejecuta el software y, por tanto, sirve para especificaciones, diseños y documentación (revisiones y análisis estático).' },
           { letra: 'c', texto: 'La prueba dinámica no requiere ejecución del software', correcta: false,
             explicacion: 'No. Al contrario: la prueba dinámica ejecuta el software y requiere casos de prueba con resultados esperados.' },
           { letra: 'd', texto: 'La prueba estática siempre encuentra más defectos que la dinámica', correcta: false,
@@ -233,7 +233,7 @@
       },
       {
         numero: 17, capitulo: 3, nivel: 'K2',
-        enunciado: 'En una revisión, ¿quién es responsable de asegurar el funcionamiento eficaz de las reuniones de revisión?',
+        enunciado: 'En una revisión, ¿quién se asegura de que las reuniones se desarrollen de forma ordenada y eficaz?',
         opciones: [
           { letra: 'a', texto: 'El autor', correcta: false,
             explicacion: 'No. El autor crea el producto de trabajo y corrige las anomalías; no dirige la reunión.' },
@@ -251,7 +251,7 @@
         opciones: [
           { letra: 'a', texto: 'Realizar revisiones de todo el documento de una sola vez', correcta: false,
             explicacion: 'No. Es un factor de fracaso: conviene revisar fragmentos pequeños y manejables en lugar de revisar todo de una vez.' },
-          { letra: 'b', texto: 'Proporcionar tiempo suficiente a los participantes para prepararse', correcta: true,
+          { letra: 'b', texto: 'Dar a los revisores margen para repasar el material con antelación', correcta: true,
             explicacion: 'Correcto. Dar tiempo de preparación, objetivos claros, formación, fragmentos pequeños y apoyo de la dirección son factores que favorecen el éxito de una revisión.' },
           { letra: 'c', texto: 'Evaluar el desempeño de los participantes durante la revisión', correcta: false,
             explicacion: 'No. Evaluar a las personas en la revisión genera un clima de "culpa" y reduce la eficacia; la revisión debe centrarse en el producto de trabajo.' },
@@ -412,7 +412,7 @@
             explicacion: 'No. Eso es un riesgo de proyecto: afecta a la disponibilidad de recursos y a la planificación.' },
           { letra: 'b', texto: 'Falta de presupuesto para herramientas de prueba', correcta: false,
             explicacion: 'No. Es un riesgo de proyecto: amenaza la ejecución y la financiación, no a la calidad del producto.' },
-          { letra: 'c', texto: 'El tiempo de respuesta del sistema supera los requisitos del usuario', correcta: true,
+          { letra: 'c', texto: 'El sistema tarda en responder más de lo pactado con el usuario', correcta: true,
             explicacion: 'Correcto. Es un riesgo de producto: amenaza la calidad del propio sistema (incumplimiento de un requisito no funcional de rendimiento).' },
           { letra: 'd', texto: 'Los implicados tienen expectativas imprecisas', correcta: false,
             explicacion: 'No. Las expectativas imprecisas de los implicados son un riesgo de proyecto (pueden cambiar el alcance y generar retrabajo).' }
@@ -422,7 +422,7 @@
         numero: 30, capitulo: 5, nivel: 'K2',
         enunciado: '¿Cuál de los siguientes es un riesgo de proyecto?',
         opciones: [
-          { letra: 'a', texto: 'El sistema no cumple los estándares de seguridad', correcta: false,
+          { letra: 'a', texto: 'El sistema incumple las normas de seguridad exigidas', correcta: false,
             explicacion: 'No. Incumplir estándares de seguridad es un riesgo de producto: afecta a la calidad y aceptación del sistema.' },
           { letra: 'b', texto: 'Las personas discapacitadas tienen problemas al usar el sistema', correcta: false,
             explicacion: 'No. Es un riesgo de producto (deficiencia de usabilidad/accesibilidad del propio sistema).' },

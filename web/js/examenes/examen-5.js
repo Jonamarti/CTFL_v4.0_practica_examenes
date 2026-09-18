@@ -1,4 +1,4 @@
-/* examen-5.js — Datos del EXAMEN DE PRÁCTICA 5 (ISTQB CTFL v4.0) */
+/* examen-5.js — Datos del EXAMEN DE PRÁCTICA 5 (CTFL v4.0) */
 (function (g) {
   'use strict';
   g.EXAMENES = g.EXAMENES || [];
@@ -261,7 +261,7 @@
       },
       {
         numero: 19, capitulo: 4, nivel: 'K2',
-        enunciado: '¿Cuál es la diferencia esencial entre la partición de equivalencia y el análisis del valor frontera?',
+        enunciado: '¿Cuál es la diferencia esencial entre la partición de equivalencia (PE) y el análisis del valor frontera (AVF)?',
         opciones: [
           { letra: 'a', texto: 'Son exactamente la misma técnica', correcta: false,
             explicacion: 'No. Se complementan, pero PE elige representantes de clase y AVF trabaja sobre las fronteras.' },
@@ -414,12 +414,12 @@
           { letra: 'c', texto: 'Revisión informal', correcta: false,
             explicacion: 'No. Es una revisión estática de producto de trabajo, no una prueba de instalación.' },
           { letra: 'd', texto: 'Prueba basada en lista de comprobación', correcta: true,
-            explicacion: 'Correcto. La prueba basada en lista de comprobación (checklist-based testing) guía la verificación por una lista predefinida de criterios.' },
+            explicacion: 'Correcto. La técnica basada en una lista de comprobación (checklist) encamina la verificación mediante criterios predefinidos.' },
         ]
       },
       {
         numero: 30, capitulo: 4, nivel: 'K2',
-        enunciado: 'En el desarrollo guiado por pruebas de aceptación (ATDD), ¿cuándo se escriben los casos de prueba de aceptación?',
+        enunciado: 'En ATDD, ¿cuándo se escriben los casos de prueba de aceptación?',
         opciones: [
           { letra: 'a', texto: 'Antes de codificar, a partir de los criterios de aceptación', correcta: true,
             explicacion: 'Correcto. En ATDD los casos de aceptación se definen y acuerdan antes de implementar, derivados de los criterios de aceptación.' },

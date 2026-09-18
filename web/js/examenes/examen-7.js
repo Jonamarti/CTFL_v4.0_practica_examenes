@@ -1,4 +1,4 @@
-/* examen-7.js — Datos del EXAMEN DE PRÁCTICA 7 (ISTQB CTFL v4.0) */
+/* examen-7.js — Datos del EXAMEN DE PRÁCTICA 7 (CTFL v4.0) */
 (function (g) {
   'use strict';
   g.EXAMENES = g.EXAMENES || [];

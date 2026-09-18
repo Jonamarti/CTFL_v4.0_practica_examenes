@@ -1,4 +1,4 @@
-/* examen-6.js — Datos del EXAMEN DE PRÁCTICA 6 (ISTQB CTFL v4.0) */
+/* examen-6.js — Datos del EXAMEN DE PRÁCTICA 6 (CTFL v4.0) */
 (function (g) {
   'use strict';
   g.EXAMENES = g.EXAMENES || [];
@@ -144,7 +144,7 @@
           { letra: 'c', texto: 'Prueba de humo', correcta: false,
             explicacion: 'No. La prueba de humo es un chequeo rápido de funciones principales, no una evaluación completa.' },
           { letra: 'd', texto: 'Prueba de sistema', correcta: true,
-            explicacion: 'Correcto. La prueba de sistema valida el sistema completo respecto a los requisitos funcionales y no funcionales definidos.' },
+            explicacion: 'Correcto. La prueba de sistema contrasta el sistema completo con los requisitos funcionales y no funcionales acordados.' },
         ]
       },
       {
@@ -420,7 +420,7 @@
       },
       {
         numero: 30, capitulo: 4, nivel: 'K2',
-        enunciado: 'En desarrollo guiado por pruebas de aceptación (ATDD), ¿qué práctica permite automatizar la verificación de los criterios de aceptación?',
+        enunciado: 'En ATDD, ¿qué práctica permite automatizar la verificación de los criterios de aceptación?',
         opciones: [
           { letra: 'a', texto: 'Medir la cobertura de rama al final del proyecto', correcta: false,
             explicacion: 'No. La cobertura de rama se mide sobre el código, no valida aceptación.' },
@@ -462,7 +462,7 @@
       },
       {
         numero: 33, capitulo: 4, nivel: 'K2',
-        enunciado: '¿Qué describe mejor los criterios de aceptación de una historia de usuario?',
+        enunciado: '¿Qué se entiende por criterios de aceptación en una historia de usuario?',
         opciones: [
           { letra: 'a', texto: 'Los nombres de las herramientas de integración continua', correcta: false,
             explicacion: 'No. La herramienta no define la aceptación de la funcionalidad.' },
