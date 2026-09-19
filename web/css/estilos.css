@@ -35,6 +35,19 @@ body {
 .cabecera h1 { margin: 0; font-size: 1.4rem; }
 .cabecera p { margin: 4px 0 0; opacity: .9; font-size: .95rem; }
 
+.disclaimer {
+  max-width: 1000px;
+  margin: 12px auto 0;
+  padding: 10px 16px;
+  background: #fff8e1;
+  border: 1px solid #e6c869;
+  border-radius: var(--radio);
+  color: #7a5c00;
+  font-size: .85rem;
+  line-height: 1.4;
+}
+.disclaimer p { margin: 0; }
+
 #app { max-width: 1000px; margin: 24px auto; padding: 0 16px; }
 
 .vista { display: none; }
